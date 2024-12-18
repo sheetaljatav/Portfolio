@@ -1,0 +1,42 @@
+[
+  {
+    "title": "SuperMall-Website-Full Stack E-Commerce Website",
+    "description": "TA scalable e-commerce platform built with HTML, CSS, JavaScript, and Firebase, enabling global merchants to manage shops, products, and offers seamlessly.",
+    "skills": ["HTML", "CSS","JavaScript", "Firebase", "UI-UX Design","Modular Development","Data Management"],
+    "imageSrc": "project",
+    "source": "https://github.com/yourusername/project-a"
+  },
+
+  {
+      "title": "Botnet Attack Detection using Deep Learning in-IoT",
+      "description": "This project uses Python and machine learning models (LSTM, CNN, Autoencoders) to detect and classify network attacks (DDOS and Malware) through data preprocessing and feature extraction.",
+      "skills": ["Python", "Pandas","Data Handling", "Deep Learning", "TensorFlow","Preprocessing"],
+      "imageSrc": "project",
+      "source": "https://github.com/yourusername/project-a"
+    },
+    {
+      "title": "Mern Stack E-Commerce Website",
+      "description": "Built a responsive e-commerce platform using the MERN stack, enabling seamless product management, user interaction, and secure transactions.",
+      "skills": ["MongoDB", "React.js","Node.js", "Express.js", "UI-UX Design","API Integration","Express.js","Github Copilot"],
+      "imageSrc": "project",
+      "source": "https://github.com/yourusername/project-a"
+    },
+    {
+      "title": "E-Commerce-Product-Recommendation-Engine",
+      "description": "Developed an e-commerce product recommendation engine using collaborative filtering techniques in Python to provide personalized recommendations and enhance customer satisfaction.",
+      "skills": ["Python", "Pandas", "Numpy"],
+      "imageSrc": "project",
+      "source": "https://github.com/yourusername/project-b"
+    },
+    {
+        "title": "Addressing EHR(Electronic Health Records) using Deep Learning ",
+        "description": "This is a project made to learn the latest languages by building an app.",
+        "skills": ["React", "Express", "Node"],
+        "imageSrc": "project",
+        "source": "https://github.com/yourusername/project-b"
+      }
+
+    
+  ]
+
+  

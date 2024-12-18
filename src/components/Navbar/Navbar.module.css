@@ -1,0 +1,91 @@
+/* Navbar container */
+.navbar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between fixed title and menu */
+    padding: 0 10%;
+    z-index: 2;
+    height: 60px;
+    margin-top: 0;
+}
+
+/* Fixed Portfolio Title */
+.fixedTitle {
+    position: fixed;
+    top: 0;
+    left: 10%;
+    z-index: 1000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    background-color: transparent;
+    padding: 10px;
+}
+
+/* Menu container */
+.menu {
+    display: flex;
+    gap: 30px;
+    margin-left: auto; /* Pushes menu items to the right */
+}
+
+/* Menu items */
+.menuitems {
+    display: flex;
+    gap: 30px; /* Space between menu items */
+    list-style: none;
+}
+
+.menuitems a {
+    font-size: 1.2rem; /* Increase size of menu items */
+    color: var(--color-text);
+    text-decoration: none;
+    font-weight: bold; /* Optional: Make text bold for better visibility */
+}
+
+/* Menu Button (Hide in desktop view) */
+.menuBtn {
+    display: none;
+}
+
+/* Responsive Styles: Mobile View */
+@media screen and (max-width: 830px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-end;
+        padding-top: 70px; /* Adjust for fixed title overlap */
+    }
+
+    .menu {
+        flex-direction: column;
+        align-items: flex-end;
+        width: 100%; /* Full width for mobile */
+        margin: 0;
+    }
+
+    .menuBtn {
+        display: block; /* Show menu button in mobile view */
+        cursor: pointer;
+    }
+
+    .menuitems {
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 13px;
+        border-radius: 10px;
+        background: black;
+        background: linear-gradient(0deg, rgba(25, 55, 109, 0.2) 0%, rgba(25, 55, 109, 1) 100%);
+        padding: 24px 33px;
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+    }
+
+    .menuOpen {
+        display: flex;
+    }
+
+    .menuitems a {
+        font-size: 1rem; /* Smaller text size for mobile */
+    }
+}

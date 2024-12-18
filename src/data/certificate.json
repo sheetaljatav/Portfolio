@@ -1,0 +1,39 @@
+[
+    {
+      "title": "React Developer Certification",
+      "description": "Completed a comprehensive course on React development.",
+      "details": "This course covered React hooks, state management, and component lifecycle.",
+      "imageSrc": "cert1"
+    },
+    {
+      "title": "Node.js Developer Certification",
+      "description": "Completed a full-stack Node.js development course.",
+      "details": "Learned about Express, MongoDB, and backend development.",
+      "imageSrc": "cert2"
+    },
+    {
+      "title": "JavaScript Mastery Certification",
+      "description": "Mastered JavaScript with an in-depth course.",
+      "details": "Focused on ES6+ features, async programming, and DOM manipulation.",
+      "imageSrc": "cert3"
+    },
+    {
+      "title": "Python for Web Development Certification",
+      "description": "Completed a course on Python web development.",
+      "details": "Covered Flask, Django, and web scraping techniques.",
+      "imageSrc": "cert4"
+    },
+    {
+      "title": "Full Stack Development Certification",
+      "description": "Learned full-stack development using React and Node.js.",
+      "details": "This certification covers both front-end and back-end technologies.",
+      "imageSrc": "cert5"
+    },
+    {
+      "title": "AI and Machine Learning Certification",
+      "description": "Completed a course in AI and machine learning.",
+      "details": "Learned about neural networks, deep learning, and AI algorithms.",
+      "imageSrc": "cert6"
+    }
+  ]
+  
