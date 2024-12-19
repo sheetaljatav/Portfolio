@@ -26,7 +26,8 @@
 }
 
 .aboutImages{
-    width: 100%; /* Adjust as needed */
+    width: 100%;
+    max-width:350px;/* Adjust as needed */
     height: auto; /* Keep height and width the same to maintain a circle */
     border-radius: 50%; /* Makes the image circular */
     object-fit: cover;
