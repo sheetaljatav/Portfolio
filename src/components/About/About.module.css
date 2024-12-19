@@ -25,7 +25,7 @@
     align-items: center;
 }
 
-.serverIcon{
+.aboutImage{
     width: 350px; /* Adjust as needed */
     height: 300px; /* Keep height and width the same to maintain a circle */
     border-radius: 50%; /* Makes the image circular */
