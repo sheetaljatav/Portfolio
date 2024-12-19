@@ -25,11 +25,11 @@
     align-items: center;
 }
 
-.aboutImage{
-    width: 100%; /* Adjust as needed */
+.aboutImages{
+    max-width: 100%;
     height: auto; /* Keep height and width the same to maintain a circle */
-    border-radius: 50%; /* Makes the image circular */
-    object-fit: cover;
+    border-radius: 15px; /* Makes the image circular */
+  
 }
 
 .aboutItems{
@@ -77,8 +77,11 @@
     .content{
         flex-direction: column;
     }
-    .aboutImages{
-        display: none;
+      .aboutImages{
+        display: block; /* Ensure the image is shown */
+        max-width: 100%; /* Ensure it doesn't exceed the container's width */
+        height: auto; /* Maintain aspect ratio */
+        margin-bottom: 20px; /* Add space below the image */
     }
     .aboutItems{
         margin-top: 29px;
