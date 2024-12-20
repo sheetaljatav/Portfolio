@@ -28,7 +28,7 @@
 .aboutImages{
     max-width: 100%;
     height: auto; /* Keep height and width the same to maintain a circle */
-    border-radius: 15px; /* Makes the image circular */
+    border-radius: 50px; /* Makes the image circular */
   
 }
 
