@@ -25,12 +25,15 @@
     align-items: center;
 }
 
-.aboutImages{
-    max-width: 100%;
-    height: auto; /* Keep height and width the same to maintain a circle */
-    border-radius: 50px; /* Makes the image circular */
-  
+.aboutImages {
+    width: 307px; /* Set the exact width */
+    height: 307px; /* Set the exact height */
+    border-radius: 50%; /* Ensure the image remains circular */
+    object-fit: cover; /* Ensure the image covers the area without distortion */
+    display: block; /* Ensure it’s a block element */
+    margin: auto; /* Center the image */
 }
+
 
 .aboutItems{
     color: var(--color-text);
