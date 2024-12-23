@@ -24,9 +24,8 @@
     flex-direction: row;
     align-items: center;
 }
-
 .aboutImages {
-   width: 50%; /* Adjust as needed */
+   width: 100%; /* Adjust as needed */
     height: auto; /* Keep height and width the same to maintain a circle */
     border-radius: 50%; /* Makes the image circular */
     object-fit: cover; /* Center the image */
