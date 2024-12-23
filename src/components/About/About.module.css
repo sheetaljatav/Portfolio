@@ -26,12 +26,13 @@
 }
 
 .aboutImages {
-    width: 307px; /* Set the exact width */
-    height: 307px; /* Set the exact height */
-    border-radius: 50%; /* Ensure the image remains circular */
-    object-fit: cover; /* Ensure the image covers the area without distortion */
-    display: block; /* Ensure it’s a block element */
-    margin: auto; /* Center the image */
+   width: 400px;
+    height: 400px;
+    border-radius: 50%; /* Circular appearance */
+    object-fit: cover; /* Ensures the image fits within dimensions */
+    display: block;
+    margin: auto; /* Centers the image */
+    background: none; /* Center the image */
 }
 
 
