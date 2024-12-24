@@ -7,7 +7,7 @@
     padding: 73px;
     margin-top: 129px;
     z-index: 1;
-    margin-left: 10%;
+    margin-left: 10%; 
     margin-right: 10%;
 }
 
@@ -24,13 +24,15 @@
     flex-direction: row;
     align-items: center;
 }
-
 .aboutImages {
-   width: 50%; /* Adjust as needed */
-    height: auto; /* Keep height and width the same to maintain a circle */
-    border-radius: 50%; /* Makes the image circular */
-    object-fit: cover; /* Center the image */
+    display: block;
+    width: 72px; /* Match the actual size */
+    height: 72px;
+    border-radius: 50%; /* Circular shape */
+    object-fit: cover; /* Ensure it fits well */
+    margin: 0 auto; /* Center the image */
 }
+
 
 
 .aboutItems{
