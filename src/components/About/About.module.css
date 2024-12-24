@@ -25,15 +25,14 @@
     align-items: center;
 }
 .aboutImages {
-    display: block; /* Ensures the image is visible */
-    width: 72px; /* Match the actual width of the image */
-    height: 72px; /* Match the actual height of the image */
-    border-radius: 50%; /* Makes the image circular */
-    object-fit: cover; /* Ensures the image fits perfectly within the circle */
-    margin: 0 auto; /* Centers the image horizontally */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Adds a subtle shadow */
-    border: 2px solid var(--color-text); /* Optional: Adds a border for emphasis */
+    display: block;
+    width: 72px; /* Match the actual size */
+    height: 72px;
+    border-radius: 50%; /* Circular shape */
+    object-fit: cover; /* Ensure it fits well */
+    margin: 0 auto; /* Center the image */
 }
+
 
 
 .aboutItems{
