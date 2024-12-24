@@ -25,7 +25,7 @@
     align-items: center;
 }
 
-.aboutImages{
+.cursorIcon{
     width: 100%; /* Adjust as needed */
     height: auto; /* Keep height and width the same to maintain a circle */
     border-radius: 50%; /* Makes the image circular */
