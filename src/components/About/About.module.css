@@ -25,12 +25,10 @@
     align-items: center;
 }
 .aboutImages {
-    display: block;
-    width: 72px; /* Match the actual size */
-    height: 72px;
-    border-radius: 50%; /* Circular shape */
-    object-fit: cover; /* Ensure it fits well */
-    margin: 0 auto; /* Center the image */
+   width: 100%; /* Adjust as needed */
+    height: auto; /* Keep height and width the same to maintain a circle */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Center the image */
 }
 
 
