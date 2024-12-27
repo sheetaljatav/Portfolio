@@ -1,93 +1,130 @@
-@import "../../vars.css";
+/* About.module.css */
 
-.container{
-    position: relative ;
-    background-color: rgba(12,12,12,0.6);
-    border-radius: 15px;
-    padding: 73px;
-    margin-top: 129px;
-    z-index: 1;
-    margin-left: 10%;
-    margin-right: 10%;
+@import '../../vars.css';
+
+.container {
+  position: relative;
+  background-color: rgba(12, 12, 12, 0.6);
+  border-radius: 15px;
+  padding: 73px;
+  margin-top: 129px;
+  margin-left: 10%;
+  margin-right: 10%;
+  z-index: 1;
 }
 
-.title{
-    color: var(--color-text);
-    font-size: 35px;
-    font-weight: 700;
-    letter-spacing: 1.75px;
-    text-transform: uppercase;
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
 }
 
-.content{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
 }
 
-.ImageIcon{
-    width: 100%; /* Adjust as needed */
-    height: auto; /* Keep height and width the same to maintain a circle */
-    border-radius: 50%; /* Makes the image circular */
-    object-fit: cover;
+.imageWrapper {
+  flex: 1 1 300px;
+  display: flex;
+  justify-content: center;
 }
 
-.aboutItems{
-    color: var(--color-text);
-    display: flex;
+.image {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+.image:hover {
+  transform: scale(1.1);
+}
+
+.sections {
+  flex: 2 1 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  background: linear-gradient(90deg, rgba(165, 215, 232, 0.42) 0%, rgba(255, 255, 255, 0) 100%);
+  transition: background-size 0.4s;
+}
+
+.section:hover {
+  background-size: 150% 100%;
+}
+
+.iconWrapper {
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: var(--primary-color);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.iconWrapper img {
+  width: 30px;
+  height: 30px;
+}
+
+.textWrapper {
+  flex: 1;
+}
+
+.sectionTitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.sectionDescription {
+  font-size: 15px;
+  color: var(--color-text);
+  line-height: 1.6;
+  text-align: justify;
+}
+
+@media screen and (max-width: 830px) {
+  .container {
+    padding: 30px;
+  }
+
+  .content {
     flex-direction: column;
-    gap: 50px;
+  }
+
+  .image {
+    width: 200px;
+    height: 200px;
+  }
+
+  .sections {
+    gap: 15px;
+  }
+
+  .section {
+    flex-direction: column;
+    text-align: center;
+  }
 }
-
-.aboutItem{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    text-align: justify;
-    border-radius: 20px;
-    list-style: none;
-    padding: 25px;
-    background-image: linear-gradient(90deg,rgba(165,215,232,0.42) 0%,rgba(255,255,255,0) 100%);
-    background-size: 0 100%;
-   
-    background-repeat: no-repeat;
-    transition: 0.4s;
-}
-
-
-.aboutItem:hover{
-    background-size: 100%, 100%;
-}
-
-.aboutItem h3{
-    font-size: 25px;
-    font-weight: 600;
-}
-
-.aboutItem p{
-    font-size: 15px;
-}
-
-@media screen and (max-width: 830px){
-    .container{
-        background-color: transparent;
-        padding-left: 0;
-        padding-right: 0;
-    }
-    .content{
-        flex-direction: column;
-    }
-    .aboutImage{
-        display: none;
-    }
-    .aboutItems{
-        margin-top: 29px;
-
-    }
-    .aboutItem{
-        padding-left: 0;
-        padding-right: 0;
-    }
-}
-    
-
