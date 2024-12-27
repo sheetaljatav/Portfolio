@@ -24,11 +24,13 @@ export const Hero = () => {
           Download My Resume
         </a>
       </div>
-      <img
-        src="assets/about/aboutImages.png"
+      <div className={styles.HeroImage}>
+      
+        <img
+        src="assets/hero/myImage.png"
         alt="Hero image of me"
-        className={styles.cursorIcon}
       />
+      </div>
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
     </section>
