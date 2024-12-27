@@ -65,7 +65,7 @@
     margin-top: 10px; /* Adds space between the buttons on smaller screens */
 }
 
-.myImage {
+.cursorIcon {
     width: 350px; /* Adjust as needed */
     height: 320px; /* Keep height and width the same to maintain a circle */
     border-radius: 50%; /* Makes the image circular */
