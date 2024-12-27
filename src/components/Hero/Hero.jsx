@@ -25,7 +25,7 @@ export const Hero = () => {
         </a>
       </div>
       <img
-        src="assets/about/cursorIcon.png"
+        src="assets/about/aboutImages.png"
         alt="Hero image of me"
         className={styles.cursorIcon}
       />
