@@ -11,7 +11,7 @@ export const Contact = () => {
     <footer id="contact" className={styles.container}>
       <div className={styles.text}>
         <h2>Contact</h2>
-        <p>Feel free to reach out!</p>
+        <p>Feel free to reach out! I’d love to connect.</p>
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>
@@ -20,13 +20,15 @@ export const Contact = () => {
         </li>
         <li className={styles.link}>
           <img src={linkedinIcon} alt="LinkedIn icon" />
-          <a href="https://www.linkedin.com/in/sheetal-chandoliya-14817720a/">
+          <a href="https://www.linkedin.com/in/sheetal-chandoliya-14817720a/" target="_blank" rel="noopener noreferrer">
             LinkedIn Profile
           </a>
         </li>
         <li className={styles.link}>
-          <img src={githubIcon} alt="Github icon" />
-          <a href="https://github.com/sheetaljatav">GitHub Profile</a>
+          <img src={githubIcon} alt="GitHub icon" />
+          <a href="https://github.com/sheetaljatav" target="_blank" rel="noopener noreferrer">
+            GitHub Profile
+          </a>
         </li>
       </ul>
     </footer>
