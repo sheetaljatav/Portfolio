@@ -1,38 +1,36 @@
 import React from "react";
 import styles from "./Hero.module.css";
+import myImage from "../../../assets/hero/myImage.png"; // Import image directly
 
 export const Hero = () => {
   return (
-    <section className={styles.heroContainer}>
-      <div className={styles.heroContent}>
-        <h1 className={styles.heroTitle}>Hi, I'm Sheetal</h1>
-        <p className={styles.heroDescription}>
-          I'm a Full Stack Developer and UI/UX Designer skilled in the MERN stack,
-          Java, and Spring Boot. I create responsive, user-friendly web applications
-          and intuitive designs. Currently, I'm interning with Unified Mentor and BWS
-          as a Full Stack Web Developer. Let's connect and build something amazing!
+    <section className={styles.container}>
+      <div className={styles.content}>
+        <h1 className={styles.title}>Hi, I am Sheetal</h1>
+        <p className={styles.description}>
+          Hi, I'm Sheetal Jatav, a Full Stack Developer and UI/UX Designer skilled in the MERN stack and Java, Spring Boot. I create responsive, user-friendly web applications and intuitive designs, with several projects showcasing these skills. Currently, I'm interning with Unified Mentor and BWS as a Full Stack Web Developer. Let’s connect and collaborate on innovative projects!
         </p>
-        <div className={styles.buttonContainer}>
+        <div className={styles.buttons}>
           <a
             href="mailto:sheetal4444jatav@gmail.com?subject=Let's%20Connect&body=Hi%20Sheetal,"
             className={styles.contactBtn}
           >
-            Contact Me
+            Contact me
           </a>
           <a
-            href="/assets/Sheetal-Jatav-Resume.pdf" // Fixed the path for production
+            href="/resume.pdf"
             className={styles.resumeBtn}
             download="Sheetal-Jatav-Resume"
           >
-            Download Resume
+            Download My Resume
           </a>
         </div>
       </div>
-      <div className={styles.heroImageWrapper}>
+      <div className={styles.imageWrapper}>
         <img
-          src="/assets/hero/myImage.png" // Ensure image path is correct in production
+          src={myImage} // Image will be bundled during build
           alt="Sheetal"
-          className={styles.heroImage}
+          className={styles.heroImg}
         />
       </div>
       <div className={styles.topBlur} />
