@@ -18,7 +18,7 @@ export const Hero = () => {
             Contact me
           </a>
           <a
-            href="/resume.pdf"
+            href="/my-resume-.pdf"
             className={styles.resumeBtn}
             download="Sheetal-Jatav-Resume"
           >
