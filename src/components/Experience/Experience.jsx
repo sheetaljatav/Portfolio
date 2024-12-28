@@ -46,7 +46,7 @@ export const Experience = () => {
           <h3 className={styles.sectionTitle}>Experience</h3>
           <div className={styles.experienceDetails}>
             <div className={styles.job}>
-              <h3>Full Stack Web Development Intern, Unified Mentor</h3>
+              <h3>Web Development Intern, Unified Mentor</h3>
               <p>Oct 2024 - Present</p>
               <ul>
                 <li>Worked on live projects of the company, using databases like Firebase</li>
@@ -54,7 +54,7 @@ export const Experience = () => {
               </ul>
             </div>
             <div className={styles.job}>
-              <h3>Web Development Intern, BWS</h3>
+              <h3>Full Stack Web Development Intern,Business Web Solutions</h3>
               <p>Oct 2024 - Dec 2024</p>
               <ul>
                 <li>Learned a lot and built full-stack projects</li>
