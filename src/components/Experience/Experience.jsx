@@ -49,16 +49,16 @@ export const Experience = () => {
               <h3>Full Stack Web Development Intern, Unified Mentor</h3>
               <p>Oct 2024 - Present</p>
               <ul>
-                <li>Worked on live projects of the company, using databases like Firebase, MongoDB</li>
+                <li>Worked on live projects of the company, using databases like Firebase</li>
                 <li>Designed a Supermall website</li>
               </ul>
             </div>
             <div className={styles.job}>
               <h3>Web Development Intern, BWS</h3>
-              <p>Oct 2024 - Present</p>
+              <p>Oct 2024 - Dec 2024</p>
               <ul>
                 <li>Learned a lot and built full-stack projects</li>
-                <li>By integrating AI tools into my workflow, I have significantly reduced completion time, enhancing productivity and efficiency</li>
+                <li>By integrating AI tools into my workflow, I have significantly reduced completion time, enhancing productivity and efficiency and used database like MongoDB</li>
               </ul>
             </div>
           </div>
