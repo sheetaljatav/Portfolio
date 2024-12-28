@@ -11,6 +11,14 @@ export const Certificate = () => {
       <div className={styles.certificateContent}>
         <h3 className={styles.sectionTitle}>Certificates</h3>
         <div className={styles.certificateDetails}>
+           <div className={styles.job} onClick={handleRedirect}>
+            <h3>Web Development</h3>
+            <ul>
+              <li>IBM SkillsBuild</li>
+            </ul>
+          </div>
+
+          
           <div className={styles.job} onClick={handleRedirect}>
             <h3>Machine Learning</h3>
             <ul>
