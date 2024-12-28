@@ -8,7 +8,9 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I am Sheetal</h1>
         <p className={styles.description}>
-          Hi, I'm Sheetal Jatav, a Full Stack Developer and UI/UX Designer skilled in the MERN stack and Java, Spring Boot. I create responsive, user-friendly web applications and intuitive designs, with several projects showcasing these skills. Currently, I'm interning with Unified Mentor and BWS as a Full Stack Web Developer. Let’s connect and collaborate on innovative projects!
+         I am a motivated Software Developer, skilled in the MERN stack, Java, Spring Boot, and Generative AI tools. I specialize in creating responsive, user-friendly web applications and intuitive designs, with several projects showcasing my expertise. I have completed an internship with Business Web Solutions (BWS) and am currently interning with Unified Mentor as a Full Stack Web Developer. I’m always ready to learn new skills and apply my knowledge to innovative projects.
+
+Scroll below to view my portfolio, explore my skills, and check out my certifications. Let’s connect and collaborate!
         </p>
         <div className={styles.buttons}>
           <a
