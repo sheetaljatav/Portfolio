@@ -12,15 +12,16 @@
 
 /* Fixed Portfolio Title */
 .fixedTitle {
-    position: fixed;
-    top: 0;
-    left: 10%;
-    z-index: 1000;
+    position: fixed; /* Make it fixed to stay in the top-left corner */
+    top: 10px; /* Adjust vertical spacing */
+    left: 10px; /* Adjust horizontal spacing */
     font-size: 1.5rem;
     font-weight: bold;
     color: white;
     background-color: transparent;
     padding: 10px;
+    text-decoration: none; /* Remove underline */
+    z-index: 1000; /* Ensure it stays above other elements */
 }
 
 /* Menu container */
@@ -40,7 +41,7 @@
 .menuitems a {
     font-size: 1.2rem; /* Increase size of menu items */
     color: var(--color-text);
-    text-decoration: none;
+    text-decoration: none; /* Remove underline from links */
     font-weight: bold; /* Optional: Make text bold for better visibility */
 }
 
