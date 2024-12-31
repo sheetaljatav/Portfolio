@@ -40,6 +40,20 @@ export const Certificate = () => {
             </ul>
           </div>
 
+           <div className={styles.job} onClick={handleRedirect}>
+            <h3>Google Cloud</h3>
+            <ul>
+              <li>Coursera</li>
+            </ul>
+          </div>
+
+           <div className={styles.job} onClick={handleRedirect}>
+            <h3>Python</h3>
+            <ul>
+              <li>HackerRank</li>
+            </ul>
+          </div>
+
           <div className={styles.job} onClick={handleRedirect}>
             <h3>Web Analytics</h3>
             <ul>
