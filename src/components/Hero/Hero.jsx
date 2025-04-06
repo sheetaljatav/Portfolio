@@ -20,7 +20,7 @@ Scroll below to view my portfolio, explore my skills, and check out my certifica
             Contact me
           </a>
           <a
-            href="/Sheetal-Resume-.pdf"
+            href="/SHEETAL-JATAV-COMPLETED MY 2 INTERSHIP..-SOFTWARE DEVELOPMENT.pdf"
             className={styles.resumeBtn}
             download="Sheetal-Jatav-Resume"
           >
