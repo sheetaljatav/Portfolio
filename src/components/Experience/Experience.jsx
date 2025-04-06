@@ -47,7 +47,7 @@ export const Experience = () => {
           <div className={styles.experienceDetails}>
             <div className={styles.job}>
               <h3>Web Development Intern, Unified Mentor</h3>
-              <p>Oct 2024 - Present</p>
+              <p>Oct 2024 - Jan 2025</p>
               <ul>
                 <li>Worked on live projects of the company, using databases like Firebase</li>
                 <li>Designed a Supermall website</li>
